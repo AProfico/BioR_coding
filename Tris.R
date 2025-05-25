@@ -2,6 +2,7 @@ tic_tac_toe<-function(User1,User2){
   winner<-NULL
   start_U1<-matrix(rep(0,9),3)
   start_U2<-matrix(rep(0,9),3)
+  x11()
   plot(NA,xlim=c(1,4),ylim=c(1,4),xaxt="n",yaxt="n",
        xlab="",ylab="",axes=T)
   
